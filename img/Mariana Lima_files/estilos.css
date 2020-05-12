@@ -1,0 +1,39 @@
+body    {
+    background-image: url(https://image.freepik.com/vetores-gratis/molecule-structure-abstract-tech-background_41981-858.jpg);
+    center center no-repeat;
+    background-size:cover;
+    font-family: Verdana;  
+    
+  }
+  
+  .menu {
+    background-color: 
+    }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .menu li {
+   list-style: none; 
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+    }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .site-subtitle,
+  .site-title{
+    color: purple;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }

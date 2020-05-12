@@ -1,38 +1,114 @@
+/*reset css*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
-    background-image: url('http://www.vanessametonini.com.br/imersaocss/a1/img/fundo.jpg');
-    background-size: auto 100vh;
-    font-family: arial;  
+  background-image: url('../img/fundo.jpg');
+  background-size: auto 160vh;
+  font-family: arial; 
+  font-size: 10px; 
+}
+
+@media (min-width:400px) {
+  body{
+    font-size: 14px;
   }
-  .menu{
-    background-color: white;
-  }
+
+}
+
+header{
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu{
+  background-color: whitesmoke;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+
+
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li{
+  list-style: none;
+}
+
+.menu a{
+  color: black;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a{
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoratio: underline;
+}
+
+.site-title{
+  color: whitesmoke;
+  text-align: center;
+}
+
+.site-subtitle{
+  color: whitesmoke; 
+  text-align: center; 
+}
+
+.rodape-prin
+{
+    background-color:  whitesmoke;       
+    clear: both;
+    height: 5vh;      
+    color: black;
+}
+
+.rodape-prin span {
   
-  .menu ul{
-    display: flex;
-    justify-content: space-around;
-  }
+  float: left;
+  width: 100vh;
+  line-height: 5vh;
   
-  .menu li{
-    list-style: none;
-  }
+}
+
+.icones-sociais ul {
   
-  a{
-    color: teal;
-    text-decoration: none;
-  }
+  display: inline-block;
+  height: inherit;
+  float: right;
+  width: 100vh;
+  margin: 0;
+  line-height: 60px;
   
-  a:hover{
-    text-decoratio: underline;
-  }
-  
-  .site-title{
-    color: whitesmoke;
-    text-align: center;
-  }
-  
-  .site-subtitle{
-    color: whitesmoke; 
-    text-align: center; 
-  }
-  
-  
+}
+
+.icones-sociais li
+{
+    display: inline-block;
+    float: right;
+    margin-left: 5px;
+    margin-top: 2px;
+    width: 40px;
+    height: inherit;
+}
+
+.img-portfolio{
+  width: 180px;
+  height: 180px;
+}
