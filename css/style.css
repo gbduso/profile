@@ -8,7 +8,7 @@
 
 body {
   background-image: url('../img/fundo.jpg');
-  background-size: auto 160vh;
+  background-size: auto 100vw;
   font-family: arial; 
   font-size: 10px; 
 }
@@ -16,8 +16,8 @@ body {
 @media (min-width:400px) {
   body{
     font-size: 14px;
+    background-size: auto 160vh;
   }
-
 }
 
 header{
@@ -32,6 +32,7 @@ header{
   background-color: whitesmoke;
   position: fixed;
   width: 100vw;
+  height: 5vh;
   top: 0;
 }
 
@@ -58,7 +59,7 @@ a{
 }
 
 a:hover{
-  text-decoratio: underline;
+  text-decoration: underline;
 }
 
 .site-title{
@@ -73,42 +74,29 @@ a:hover{
 
 .rodape-prin
 {
-    background-color:  whitesmoke;       
-    clear: both;
-    height: 5vh;      
-    color: black;
+  background-color:  whitesmoke;       
+  clear: both;
+  height: 7vh;      
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
 
 .rodape-prin span {
-  
-  float: left;
-  width: 100vh;
-  line-height: 5vh;
-  
-}
-
-.icones-sociais ul {
-  
-  display: inline-block;
-  height: inherit;
-  float: right;
-  width: 100vh;
-  margin: 0;
-  line-height: 60px;
-  
+  float: left;  
+  line-height: 7vh;  
 }
 
 .icones-sociais li
 {
-    display: inline-block;
-    float: right;
-    margin-left: 5px;
-    margin-top: 2px;
-    width: 40px;
-    height: inherit;
+  display: inline-block;
+  float: right;
+  margin-top: 1vh;   
 }
 
+/*
 .img-portfolio{
   width: 180px;
   height: 180px;
-}
+}*/ 
