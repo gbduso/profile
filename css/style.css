@@ -216,6 +216,10 @@ a:hover{
   margin-bottom: 5em;   
 }
 
+.contato figure{
+  text-align: center;
+}
+
 .contato .grid{
   grid-template-columns: repeat(3, 300px);
   display: grid;
@@ -226,8 +230,10 @@ a:hover{
 }
 
 .img-contato{
-  
+  text-align: center;
   height: 180px;
   object-fit: cover;
-  width: 180px;  
+  width: 180px; 
+  justify-content: center;  
+  align-content: center; 
 }
