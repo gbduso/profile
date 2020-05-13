@@ -5,48 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guilherme Ballardin Duso</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <nav class = "menu">
-          <ul>
-            <li><a href = "#"> Sobre </a></li>
-            <li><a href = "#"> Portfólio </a></li>
-            <li><a href = "#"> Contato </a></li>
-          </ul>
-        </nav>
-
-        <div>
-          <h1 class="site-title"> Guilherme Ballardin Duso </h1>
-          <h2 class="site-subtitle"> web developer </h2>            
-        </div>   
-      </header>
-
+  <header>
+    <nav class = "menu">
+      <ul>
+        <li><a class = "link" href = "#sobre"> Sobre </a></li>
+        <li><a class = "link" href = "#projetos"> Projetos </a></li>
+        <li><a class = "link" href = "#contato"> Contato </a></li>
+      </ul>
+    </nav>
+    
+    <div>
+      <figure>
+        <img class="img-title" src="./img/Sorvete.jpg" alt="Foto-perfil">
+      </figure>
+      <h1 class="site-title"> Guilherme Ballardin Duso </h1>
+      <h2 class="site-subtitle"> web developer </h2>            
+    </div>   
+  </header>
       
-      <footer class="rodape-prin">
-        <span>&copy; Guilherme Ballardin Duso 2020</span>  
-            <ul class="icones-sociais">
-                <li><a href="https://www.linkedin.com/in/guilherme-ballardin-duso" target="_blank"><img src="./Icones/linkedin.png" alt="Icone do Linkedin"></a></li>
-                <li><a href="https://github.com/gbduso" target="_blank"><img src="./Icones/github.png" alt="Icone do GitHub"></a></li>
-            </ul>            
-      </footer>
-        
-<!--
-      <section>
-        <h2>Portifólio</h2>
-        <figure>
-          <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-          <figcaption>eCommerce</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt="eCommerce">
-          <figcaption>eCommerce</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="eCommerce">
-          <figcaption>eCommerce</figcaption>
-        </figure>
-      </section>
-      -->
+  <footer class="rodape-prin">
+    <span>&copy; Guilherme Ballardin Duso 2020</span>  
+      <ul class="icones-sociais">
+        <li><a href="https://www.linkedin.com/in/guilherme-ballardin-duso" target="_blank"><img src="./Icones/linkedin.png" alt="Icone do Linkedin"></a></li>
+        <li><a href="https://github.com/gbduso" target="_blank"><img src="./Icones/github.png" alt="Icone do GitHub"></a></li>
+        <li><a href="mailto:guilherme.duso@gmail.com" target="_blank"><img src="./Icones/mail.png" alt="Icone do mail"></a></li>
+      </ul>            
+  </footer> 
+
+  <section id="sobre" class="sobre">
+    <h1>Sobre</h1>
+    <div class="grid">
+      <figure>
+        <img class="img-sobre" src="./img/dino.jpg" alt="Sobre">      
+      </figure>   
+      <h2>Oi eu sou  Goku!</h2>
+    </div>
+  </section>
+
+  <section id="projetos" class="portfolio">
+    <h2>Projetos</h2>
+    <div class="grid">
+      <figure>
+        <img class="img-portfolio" src="./img/ROB.PNG" alt="Rob">
+        <figcaption>Robozinho</figcaption>
+      </figure>
+      <figure>
+        <img class="img-portfolio" src="./img/mp95.jpg" alt="Onibus">
+        <figcaption>Ônibus</figcaption>
+      </figure>
+      <figure>
+        <img class="img-portfolio" src="./img/Dudu.jpg" alt="Dudu">
+        <figcaption>Dudu</figcaption>
+      </figure>
+      <figure>
+        <img class="img-portfolio" src="./img/Pizza.jpg" alt="Pizza">
+        <figcaption>Pizza</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <div class="grid">      
+      <figure>
+        <img class="img-portfolio" src="./img/github.png" alt="github">
+      </figure> 
+      <figure>
+        <img class="img-portfolio" src="./img/linkedin.png" alt="linkedin">
+      </figure> 
+      <figure>
+        <img class="img-portfolio" src="./img/mail.png" alt="mail">
+      </figure>      
+    </div>
+  </section>
+
 </body>
 </html>
