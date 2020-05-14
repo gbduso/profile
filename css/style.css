@@ -156,6 +156,13 @@ a:hover{
 
 @media(min-width: 500px){
   .sobre .grid{
+    grid-template-columns: repeat(2, 250px);
+    justify-content: center;
+  }
+}
+
+@media(min-width: 720px){
+  .sobre .grid{
     grid-template-columns: repeat(2, 350px);
     justify-content: center;
   }
@@ -172,12 +179,23 @@ a:hover{
 @media(min-width: 500px){
   .img-sobre{
     border-radius: 10px;
-    height: 450px;
+    height: 350px;
     object-fit: cover;
-    width: 350px;
+    width: 250px;
     margin-bottom: 1em;   
   }
 }
+
+@media(min-width: 720px){
+  .img-sobre{
+    border-radius: 10px;
+    height: 430px;
+    object-fit: cover;
+    width: 330px;
+    margin-bottom: 1em;   
+  }
+}
+
 .sobre h2{
   color: white;  
   font-size: 1em;
@@ -198,16 +216,16 @@ a:hover{
   align-content: center;
 }
 
-@media(min-width: 560px){
+@media(min-width: 500px){
   .portfolio .grid{
-    grid-template-columns: repeat(2, 500px);
+    grid-template-columns: repeat(3, 300px);
     justify-content: center;
   }
 }
 
-@media(min-width: 880px){
+@media(min-width: 720px){
   .portfolio .grid{
-    grid-template-columns: repeat(2, 500px);
+    grid-template-columns: repeat(3, 350px);
     align-content: center;
     justify-content: center;    
   }
@@ -232,6 +250,21 @@ a:hover{
   margin-bottom: 1em;
   margin-top: 1em;
 }
+
+@media(min-width: 500px){
+  .img-portfolio{
+    height: 180px;
+    width: 180px;      
+  }
+}
+
+@media(min-width: 720px){
+  .img-portfolio{
+    height: 200px;
+    width: 200px;      
+  }
+}
+
 .portfolio figcaption {
   color: whitesmoke;
   font-weight: bold;
@@ -241,7 +274,7 @@ a:hover{
   background-size: auto 95vh;
   text-align: center;
   min-height: 100vh;
-  padding: 3em;
+  padding: 2em;
   
 }
 
@@ -254,15 +287,28 @@ a:hover{
 }
 
 .contato a{
-  margin: 0.5em;
+  margin: 0.1em;
   color: whitesmoke;
-  font-size: 10em;
-  transition: text-shadow 1s
+  font-size: 4em;
+  transition: text-shadow 500ms
+}
+
+@media(min-width: 500px){
+  .contato a{
+    font-size: 5em; 
+    margin: 0.3em;   
+  }
+}
+
+@media(min-width: 720px){
+  .contato a{
+    font-size: 8em; 
+    margin: 0.3em;   
+  }
 }
 
 .contato a:active,
 .contato a:hover{
-  text-decoration: none;
-  
+  text-decoration: none;  
   text-shadow: 0px 0px 10px rgba(255,255,255,.5);
 }
